@@ -1,7 +1,4 @@
-# ECLIPSE MODULE — Changelog
-
-All notable changes to this module are documented here.
-
+# ECLIPSE MODULE [LOGS]
 ---
 
 ## [v1.0.0] — 2026-11-16
