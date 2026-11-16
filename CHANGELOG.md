@@ -9,7 +9,7 @@ All notable changes to this module are documented here.
 ### Initial release
 
 ### Added
-- Zygisk core (`zygisk/arm64-v8a.so`) with Eclipse loading pipeline.
+- Eclipse core loader for CODM Garena (arm64).
 - Magisk module structure with standard installer (`update-binary` / `updater-script`).
 - Custom ASCII banner on flash.
 - `module.prop` with Eclipse branding (name, author, description).
@@ -17,11 +17,12 @@ All notable changes to this module are documented here.
 - `banner.png` module card for Magisk manager.
 - Optional `icon.png` for manager display.
 - `update.json` with `zipUrl` + `changelog` pointers.
+- License panel · ESP · Aim · Memory · Hide root / UBL process mask.
 
 ### Compatibility
-- Magisk v24+ (Zygisk required).
+- Magisk v24+.
 - arm64-v8a only.
-- CODM build target (as designed).
+- CODM Garena build target 1.6.59 GR.
 
 ### Known limitations
 - No armv7 / x86 support yet.
