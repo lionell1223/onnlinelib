@@ -1,27 +1,58 @@
-
 # ECLIPSE MODULE — Changelog
+
+All notable changes to this module are documented here.
 
 ---
 
-## [5.0.2] — 2026-11-19
+## [v6.0.3] — 2026-11-22
 
 ### Added
-- Volume Up and Volume Down both open and close the menu. Either button works.
+-drag handle at bottom of screen — pull up to open menu, push down to close.
+- Stream Proof toggle in Settings — ESP hides instantly when enabled.
 
 ### Changed
-- Menu Settings tab streamlined — key status panel, re-verify button, and footer removed.
-- Key verification now reports the real reason when it fails instead of looping back to "not found".
+- Menu redesigned as a bottom sheet with live FPS in header.
 
 ### Fixed
-- Key file sometimes not being created on first launch.
-- Device ID regenerating every session on fresh installs, causing valid keys to fail.
-- Hide Stream making the menu itself invisible while active.
-- Ghost overlay left on screen after turning Hide Stream off.
-
-### Removed
-- Unused key-type and expiry tracking.
+- Key input reachable on first launch.
+- Ghost overlay left after disabling Stream Proof.
 
 ### Compatibility
 - Magisk v24+ (Zygisk required).
 - arm64-v8a only.
 - CODM build target.
+
+### Known limitations
+- No armv7 / x86 support yet.
+
+---
+
+## [v1.0.0] — 2026-11-16
+
+### Initial release
+
+### Added
+- Zygisk core (`zygisk/arm64-v8a.so`) with Eclipse loading pipeline.
+- Magisk module structure with standard installer (`update-binary` / `updater-script`).
+- Custom ASCII banner on flash.
+- `module.prop` with Eclipse branding (name, author, description).
+- Online update support via `updateJson`.
+- `banner.png` module card for Magisk manager.
+- Optional `icon.png` for manager display.
+- `update.json` with `zipUrl` + `changelog` pointers.
+
+### Compatibility
+- Magisk v24+ (Zygisk required).
+- arm64-v8a only.
+- CODM build target (as designed).
+
+### Known limitations
+- No armv7 / x86 support yet.
+- Banner shown only during flash, not in-module.
+
+---
+
+## Format
+
+`[version] — YYYY-MM-DD`
+Sections: `Added`, `Changed`, `Fixed`, `Removed`, `Compatibility`, `Known limitations`.
