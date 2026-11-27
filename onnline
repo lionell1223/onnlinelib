@@ -1,1 +1,33 @@
-onmlinelib
+{
+  "menu_title": "SYSTEM SELECT",
+  "systems": [
+    {
+      "name": "ARESS V1",
+      "status": "ONLINE",
+      "lib_name": "lib",
+      "download_url": "here",
+      "game_activity": "com.tencent.tmgp.cod.CODMainActivity"
+    },
+    {
+      "name": "ARESS V2",
+      "status": "ONLINE",
+      "lib_name": "lib",
+      "download_url": "here",
+      "game_activity": "com.tencent.tmgp.cod.CODMainActivity"
+    },
+    {
+      "name": "ARESS V3",
+      "status": "ONLINE",
+      "lib_name": "lib",
+      "download_url": "here",
+      "game_activity": "com.tencent.tmgp.cod.CODMainActivity"
+    },
+    {
+      "name": "ARESS TEST",
+      "status": "ONLINE",
+      "lib_name": "li",
+      "download_url": "here",
+      "game_activity": "com.tencent.tmgp.cod.CODMainActivity"
+    }
+  ]
+}
