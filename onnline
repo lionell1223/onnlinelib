@@ -2,31 +2,17 @@
   "menu_title": "SYSTEM SELECT",
   "systems": [
     {
-      "name": "ARESS V1",
+      "name": "ECLIPSE (gr) [1.6.59] | SKIN",
       "status": "ONLINE",
-      "lib_name": "lib",
-      "download_url": "here",
+      "lib_name": "libZAGlll.so",
+      "download_url": "https://github.com/lionell1223/onnlinelib/releases/download/onnlinepNel/libZAGlll.so",
       "game_activity": "com.tencent.tmgp.cod.CODMainActivity"
     },
     {
-      "name": "ARESS V2",
+      "name": "ECLIPSE (gr) [1.6.59] | N SKIN",
       "status": "ONLINE",
-      "lib_name": "lib",
-      "download_url": "here",
-      "game_activity": "com.tencent.tmgp.cod.CODMainActivity"
-    },
-    {
-      "name": "ARESS V3",
-      "status": "ONLINE",
-      "lib_name": "lib",
-      "download_url": "here",
-      "game_activity": "com.tencent.tmgp.cod.CODMainActivity"
-    },
-    {
-      "name": "ARESS TEST",
-      "status": "ONLINE",
-      "lib_name": "li",
-      "download_url": "here",
+      "lib_name": "libZAGll.so",
+      "download_url": "https://github.com/lionell1223/onnlinelib/releases/download/onnlinepNel/libZAGll.so",
       "game_activity": "com.tencent.tmgp.cod.CODMainActivity"
     }
   ]
